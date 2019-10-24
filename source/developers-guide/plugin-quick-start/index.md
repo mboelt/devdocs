@@ -902,7 +902,18 @@ Example `plugin.xml`:
        <link>https://store.shopware.com/en</link>
        <author>shopware AG</author>
        <compatibility minVersion="5.3.0"/>
-
+       <description>
+           <![CDATA[
+           <b>My Plugin</b>
+           <p>CSS,INLINE-Styles,BASE64-IMAGES OR SCRIPTS NOT ALLOWED! Describes Plugin and contains a Link to manual/description in the community-store: <a href="https://store.shopware.com/search?sSearch=TechnicalPluginName">Plugin Manual</a></p>
+           ]]>
+       </description>
+       <description lang="de">
+           <![CDATA[
+           <b>Mein Plugin</b>
+           <p>CSS,INLINE-Styles,BASE64-IMAGES NICHT ERLAUBT! Beschreibt Plugin und enthält einen Link zur Anleitung/Beschreibung im Community Store: <a href="https://store.shopware.com/search?sSearch=TechnischerPluginName">Plugin Anleitung</a></p>
+           ]]>
+       </description>
        <changelog version="1.0.1">
            <changes lang="de">Farbe geändert; Schriftgröße geändert;</changes>
            <changes lang="en">changed color; changed font-size;</changes>
